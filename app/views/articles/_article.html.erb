@@ -1,6 +1,6 @@
 <div id="<%= dom_id article %>">
 
-  <% @article.photos.each do |photo| %>
+  <% article.photos.each do |photo| %>
     <%= cl_image_tag photo.key, width: 300 %>
   <% end %>
 
